@@ -164,6 +164,51 @@
 \_sdef{_mt:today:et}{\_the\day.~\_mtext{m\_the\_month} \_the\_year}
 \_quotationmarks et {„“„“}
 
+\_langdata srl {Serbian}   % ------------------------------------------------
+\_langw srl  Poglavlje     Tabela     Slika      Predmet
+\_langb srl  { i } { i~drugi } {\,ur.} {vidi~} {tom~} {br.~} {str.~} {~str.} {,~urednik} {,~urednici}
+            {Dostupno na } {Dostupno i na }
+            {Bakalorski rad} {Diplomski rad} {Doktorska disertacija}
+\_monthw srl januara februara marta aprila maja juna
+            jula avgusta septembra oktobra novembra decembra
+\_sdef{_mt:today:srl}{\_the\_day.~\_mtext{m\_the\_month} \_the\_year} % date format
+\_quotationmarks srl {„“‚‘}
+\_preplangmore   srl {\_frenchspacing \_postexhyphenchar=`\-
+                     \_def\_langreset{\_postexhyphenchar=0 }}
+
+\_def \_sortingdatasrl {% it is not a subset of \_sortingdatalatin, there is different order
+  /,{ },-,&,@,%
+  aA,bB,cC,čČ,ćĆ,dD,đĐ,%
+  ^^T^^U,% dj Dj
+  eE,fF,gG,hH,iI,jJ,kK,lL,%
+  ^^V^^W,% lj Lj
+  mM,nN,oO,pP,rR,sS,šŠ,tT,uU,vV,zZ,žŽ,%
+  0,1,2,3,4,5,6,7,8,9,'%
+}
+\_let \_ignoredcharssrl = \_ignoredcharsgeneric
+\_def \_compoundcharssrl {dj:^^T Dj:^^U lj:^^V Lj:^^W}
+
+\_langdata src {SerbianCyrl}   % ------------------------------------------------
+\_langw src  Поглавље     Табела     Слика      Предмет
+\_langb src  { и } { и~други } {\,ур.} {види~} {том~} {бр.~} {стр.~} {~стр.} {,~уредник} {,~уредници}
+            {Доступно на } {Доступно и на }
+            {Бакалорски рад} {Дипломски рад} {Докторска дисертација}
+\_monthw src јануара фебруара марта априла маја јуна
+            јула августа септембра октобра новембра децембра
+\_sdef{_mt:today:src}{\_the\_day.~\_mtext{m\_the\_month} \_the\_year} % date format
+\_quotationmarks src {„“‚‘}
+\_preplangmore   src {\_frenchspacing \_postexhyphenchar=`\-
+                     \_def\_langreset{\_postexhyphenchar=0 }}
+
+\_def \_sortingdatasrl {% it is not a subset of \_sortingdatalatin, there is different order
+  /,{ },-,&,@,%
+  аА,бБ,вВ,гГ,дД,ђЂ,еЕ,жЖ,зЗ,иИ,јЈ,кК,лЛ,љЉ,мМ,%
+  нН,њЊ,оО,пП,рР,сС,тТ,ћЋ,уУ,фФ,хХ,цЦ,чЧ,џЏ,шШ,%
+  0,1,2,3,4,5,6,7,8,9,'%
+}
+\_let \_ignoredcharssrl = \_ignoredcharsgeneric
+\_def \_compoundcharssrl {}
+
 \_langdata he {Hebrew} % -----------------------------------------------
 \_langw he  פרק      טבלה       איור       נושא
 \_langb he  {, ו- }  { ועמיתים.} {\,מהדורה} {מצוטט מ-~} {כרך~} {מס׳~} {עמודים~} {עמ׳~} {:מחבר~} {:מחברים~}
