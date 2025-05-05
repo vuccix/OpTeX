@@ -164,8 +164,6 @@
 \_sdef{_mt:today:et}{\_the\day.~\_mtext{m\_the\_month} \_the\_year}
 \_quotationmarks et {„“„“}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \_langdata sr-latn {Serbian}   % ------------------------------------------------
 \_langw sr-latn  Poglavlje     Tabela     Slika      Predmet
 \_langb sr-latn  { i } { i~drugi } {\,ur.} {vidi~} {tom~} {br.~} {str.~} {~str.} {,~urednik} {,~urednici}
@@ -210,8 +208,6 @@
 }
 \_let \_ignoredcharssr-cyrl = \_ignoredcharsgeneric
 \_def \_compoundcharssr-cyrl {}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \_langdata he {Hebrew} % -----------------------------------------------
 \_langw he  פרק      טבלה       איור       נושא
