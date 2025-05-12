@@ -1,8 +1,5 @@
 = OpTeX
 
-OpTeX including development versions.
+This is a fork of the official https://github.com/olsak/OpTeX[OpTeX] repository.
 
-See http://petr.olsak.net/optex/
-
-Documentation: http://petr.olsak.net/ftp/olsak/optex/optex-doc.pdf
-
+I have contributed language support for Serbian cyrillic and latin scripts to OpTeX.
